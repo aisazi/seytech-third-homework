@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    margin: 0px;
+    line-height: 1.4;
+}
+.parent{
+    padding: 0px 26px;
+    height: 2000px;
+}
+.children{
+    width: 100%;
+    height: 320px;
+    background-color:#ff9900;
+    padding: 30px 0px 10px 35px;
+}
+.children img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid aliceblue;
+    border-radius: 30px;
+}
+
+.children h1{
+    color: aliceblue;
+}
+.second{
+    width: 100%;
+    height: 1600px;
+    background-color:lightblue;
+}
+ul{
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.second h2{
+    font-size: 22px;
+}
+ul li{
+    width: 170px;
+    height: 45px;
+    background-color: #ff9900 ;
+    color: #fff;
+    font-size:16px;
+    padding-left: 10px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: -25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+ ul li:hover{
+    background-color:#006666;
+}
+ol li{
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+.third{
+    width: 99%;
+    height: 200px;
+    margin-left: 20px;
+    background-color:lightslategrey;
+}
+
+.third div{
+    width: 100%;
+    height: 1px;
+    background-color:lightcoral;
+}
+table {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+tr {
+    border: 1px solid red;
+    width: 100%;
+}
+td{
+    padding: 20px 0px 20px 16px;
+}
+.td-1 {
+    width: 15%;
+}
+ a{
+    text-decoration: none;
+    background-color:darkslategray;
+    color: #ff9900;
+    padding:8px 10px 12px 8px ;
+    font-weight: bold;
+} 
+.td-2 {
+    width: 85%;
+}
+.header-td td {
+    padding: 13px 0px 13px 12px;
+    background-color:deepskyblue;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+.grey-back {
+    background-color:lightgray;
+}
+footer{
+    width: 98%;
+    margin: auto;
+    border: 10px solid orange;
+    height: 150px;
+    margin-top: 20px;
+    background-color: darkcyan;
+    text-align: center;
+}
+p{
+    width: 83%;
+    margin: auto;
+    height: 100px;
+    padding-top: 20px;
+    margin-top: 13px;
+}
+@media screen and (max-width: 1279px) {
+    .third{
+        width: 98.4%;
+    }
+    p{
+       margin-top: 0px;
+    }
+}
+@media screen and (max-width: 1092px) {
+    .third{
+        width: 98%;
+    }
+    p{
+        width: 90%;
+        padding-top: 5px;
+    }
+}
